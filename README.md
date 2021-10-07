@@ -2,7 +2,7 @@
 
 
 ## Instructions
-using your previous project from the last task, do the following
+Fork [this repo] (https://github.com/JoinCODED/Task-React-Routing)
 
 ### 1. Setup
 1. Install react-router and react-router-dom `yarn add react-router react-router-dom`
