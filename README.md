@@ -1,25 +1,33 @@
-# Interactive Features 💥
+# React-Routing
 
-## First things first :
-fork and clone and open in VScode 
 
 ## Instructions
+using your previous project from the last task, do the following
 
-this task consist of TWO parts:
+### 1. Setup
+1. Install react-router and react-router-dom `yarn add react-router react-router-dom`
+2. In index.js, import BrowserRouter from react-router-dom.
+3. Wrap the App component with BrowserRouter.
 
-### 1. Part one : search bar 😎
-- a search bar componet is already made, and added to the list component, all you have to do is to make it work!
+### 2. Home and List Routes 
+1. In App.js, import Route and Switch.
+2. wrap each compoenent with Route and add exact paths to each one 
+3. warp all components with Switch.
+4. test if everyting is working well
 
+### 3. Details 
+1. add Details component to your App.js and wrap it in Route 
+2. the path for this Detail component has to have an id as a param 
+3. in ProductItem component wrap the image with a link to take you to the detail component, you should send the id in the path
+4. in detail component get the id from the params and find the cookie using its id
 
-### 2. Part two : Detail component
-- create a component ( a detail component) that will show => cookie name, img, price AND description 
-Hint:you need to add a description to each cookie in the data file 
-- this component should show when the user click on any cookie from the list 
-- when clicking ONLY the cookie that have been clicked should show (i dont need to see the list )
+### 4. NavBar UI
+1. create a NavBar component 
+2. add Links to redirect you to other components in the app (list, home)
 
-### 3. Cool devalopers Part : Theme 
-- add a button to your website, that will chnge the theme of your app
-Hint: have two CSS classes AND switch between them 
+### 5.Something very kash5a, yet very very easy 😎 Logo
+1. add a logo to your app in the Navbar and place it in the top left
+2. clicking on the logo should always redirect you to home !
 
-### JOKER PART:
-- add a button to each cookie component to delete the cookie 🤯
+### Challenge
+Right now, your browser tab title is not changing. Make it so that all your pages have a title. HINT: use React Helmet.
