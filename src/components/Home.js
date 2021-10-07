@@ -1,5 +1,5 @@
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="home">
       <h1>Cookies and Beyond</h1>

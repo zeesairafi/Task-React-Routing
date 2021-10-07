@@ -3,9 +3,16 @@ import React from "react";
 
 
 const SearchBar = (props) => {
+
+  const checkLength = (string) => {
+    if (string.length >= 2)
+      props.setQuery(string)
+    else props.setQuery("")
+  }
+
   return (
     <input className="searchBar"
-      onChange={(event) => console.log(event.target.value)}
+      onChange={(event) => checkLength(event.target.value)} //Cu
       placeholder="Search for a cookie name"
     />
   );
