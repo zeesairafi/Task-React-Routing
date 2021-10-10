@@ -15,15 +15,17 @@ Fork [this repo](https://github.com/JoinCODED/Task-React-Routing) and clone
 3. warp all components with Switch.
 4. test if everyting is working well
 
-### 3. Details 
+### 3. NavBar UI
+1. create a NavBar component 
+2. add Links to redirect you to other components in the app (list, home)
+
+### 4. Details 
 1. add Details component to your App.js and wrap it in Route 
 2. the path for this Detail component has to have an id as a param 
 3. in ProductItem component wrap the image with a link to take you to the detail component, you should send the id in the path
 4. in detail component get the id from the params and find the cookie using its id
 
-### 4. NavBar UI
-1. create a NavBar component 
-2. add Links to redirect you to other components in the app (list, home)
+
 
 ### 5.Something very kash5a, yet very very easy 😎 Logo
 1. add a logo to your app in the Navbar and place it in the top left
