@@ -10,9 +10,9 @@ Fork [this repo](https://github.com/JoinCODED/Task-React-Routing) and clone
 3. Wrap the App component with BrowserRouter.
 
 ### 2. Home and List Routes 
-1. In App.js, `import { Route, Switch } from "react-router";`
+1. In App.js, `import { Route, Routes } from "react-router-dom";`
 2. wrap each compoenent with Route and add exact paths to each one 
-3. warp all components with Switch.
+3. warp all components with Routes.
 4. test if everyting is working well
 
 ### 3. NavBar UI
