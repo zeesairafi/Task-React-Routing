@@ -5,7 +5,7 @@
 Fork [this repo](https://github.com/JoinCODED/Task-React-Routing) and clone
 
 ### 1. Setup
-1. Install react-router and react-router-dom `npm install react-router react-router-dom`
+1. Install react-router and react-router-dom `npm install react-router-dom`
 2. In index.js `import { BrowserRouter } from "react-router-dom";`
 3. Wrap the App component with BrowserRouter.
 
